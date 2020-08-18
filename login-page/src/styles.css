@@ -5,8 +5,10 @@ html {
     color: white;
 }
 
-body {
-    background: radial-gradient(#FDB30E, #DD6D00);
+.bg-image {
+    background: radial-gradient(#FDB30E 30%, #DD6D00 40%, #391718 90%);
+    width: 100%;
+    height: 100%;
 }
 
 h2 {
