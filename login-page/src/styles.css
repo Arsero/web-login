@@ -6,11 +6,11 @@ html {
 }
 
 body {
-    background: radial-gradient(#FDB30E, #c25e00);
+    background: radial-gradient(#FDB30E, #DD6D00);
 }
 
 h2 {
-    color: #FDB30E;
+    color: #E37B03;
     margin-bottom: 60px;
 }
 
@@ -80,7 +80,7 @@ input[type=password]:hover {
 }
 
 input[type=submit] {
-    background-color: #FDB30E;
+    background: linear-gradient(45deg, #DD6D00, #FDB30E);
     color: white;
     font-weight: bold;
     width: 100%;
@@ -89,10 +89,10 @@ input[type=submit] {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
     letter-spacing: 0.3em;
+    transition: 0.3s ease-in-out;
 }
 
 input[type=submit]:hover {
-    background-color: #f0a400;
+    filter: brightness(1.1);
 }
